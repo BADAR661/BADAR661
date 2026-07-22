@@ -5,10 +5,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&duration=3500&pause=1000&color=3B82F6&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Badar+Nadeem;Machine+Learning+Enthusiast;Software+Engineering+Student;Flutter+Developer;Open+to+AI%2FML+%26+SQA+Internships" alt="Typing SVG" />
 </p>
 
-<h3 align="center">
-Machine Learning Enthusiast • Software Engineering Student • AI Developer
-</h3>
-
 <p align="center">
 Passionate about building AI-powered applications, mobile solutions, and intelligent software. Currently exploring Machine Learning, FastAPI, Flutter, and Software Quality Assurance while actively seeking remote AI/ML internship opportunities.
 </p>
