@@ -1,0 +1,154 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#050816"/>
+<stop offset="100%" stop-color="#0B1220"/>
+</linearGradient>
+
+<linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#ffffff"/>
+<stop offset="50%" stop-color="#38bdf8"/>
+<stop offset="100%" stop-color="#0ea5e9"/>
+
+<animateTransform
+attributeName="gradientTransform"
+type="translate"
+from="-1 0"
+to="1 0"
+dur="8s"
+repeatCount="indefinite"/>
+
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="3" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1280" height="300" rx="22" fill="url(#bg)"/>
+
+<!-- Border -->
+
+<rect
+x="3"
+y="3"
+width="1274"
+height="294"
+rx="20"
+fill="none"
+stroke="#0EA5E9"
+stroke-width="1.2"
+opacity=".45"/>
+
+<!-- Top Line -->
+
+<line
+x1="150"
+y1="70"
+x2="1130"
+y2="70"
+stroke="#1d4ed8"
+stroke-width="2"/>
+
+<!-- Bottom Line -->
+
+<line
+x1="150"
+y1="230"
+x2="1130"
+y2="230"
+stroke="#1d4ed8"
+stroke-width="2"/>
+
+<!-- Moving Light -->
+
+<circle r="5" fill="#38bdf8" filter="url(#glow)">
+<animateMotion
+dur="5s"
+repeatCount="indefinite"
+path="M150 70 L1130 70 L1130 230 L150 230 Z"/>
+</circle>
+
+<!-- Floating Particles -->
+
+<circle cx="180" cy="120" r="2" fill="#38bdf8">
+<animate attributeName="cy" values="120;115;120" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1120" cy="180" r="2" fill="#38bdf8">
+<animate attributeName="cy" values="180;175;180" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1050" cy="90" r="1.5" fill="#60a5fa">
+<animate attributeName="cy" values="90;84;90" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Name -->
+
+<text
+x="640"
+y="125"
+font-size="60"
+font-family="Segoe UI, Arial, sans-serif"
+font-weight="700"
+fill="url(#nameGradient)"
+text-anchor="middle">
+
+BADAR NADEEM
+
+</text>
+
+<!-- Subtitle -->
+
+<text
+x="640"
+y="165"
+font-size="22"
+font-family="Segoe UI"
+letter-spacing="5"
+fill="#38bdf8"
+text-anchor="middle">
+
+MACHINE LEARNING ENGINEER
+
+</text>
+
+<!-- Description -->
+
+<text
+x="640"
+y="198"
+font-size="18"
+font-family="Segoe UI"
+fill="#b6c2d0"
+text-anchor="middle">
+
+Software Engineering Student • AI Developer • SQA Enthusiast
+
+</text>
+
+<!-- Tagline -->
+
+<text
+x="640"
+y="265"
+font-size="16"
+font-family="Segoe UI"
+letter-spacing="3"
+fill="#7dd3fc"
+text-anchor="middle">
+
+BUILDING INTELLIGENT SOLUTIONS FOR A BETTER TOMORROW
+
+</text>
+
+</svg>
